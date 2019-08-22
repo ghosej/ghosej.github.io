@@ -140,34 +140,41 @@
                           <p class="modal-card-title">Skyline</p>
                         </header>
                         <section class="modal-card-body">
-                            Mcity's partner companies and researchers associated with the University of Michigan
-                            can test their autonomous and connected vehicles at Mcity's test facility. Infrastructure 
+                            Researchers can test their autonomous and connected vehicles at Mcity's test facility. Infrastructure 
                             such as crosswalks and traffic lights can be controlled with software to simulate different 
                             conditions. Previously, researchers would need to program the infrastructure in person, but 
                             the web interface I built this summer enables remote control of the facility using an open 
                             source API. 
 
                             <br><br>Skyline includes the following features: 
-                            <br>&bull; Displays live status of infrastructure
-                            <br>&bull; Shows infrastructure locations on a map of the test facility
+                            <br>&bull; Displays live countdown of when traffic lights will change color
+                            <br>&bull; Only opens Socket IO channel for infrastructure if main menu panel is expanded 
+                            to improve efficiency 
+                            <br>&bull; Shows infrastructure locations and additional information on a map of the test facility
                             <br>&bull; Allows users to “favorite” infrastructure for ease of access
                             <br>&bull; Logs all user and API interactions which can be downloaded in a CSV file format
+                            <br>&bull; Main menu automatically scrolls to appropriate location when user clicks on a marker
                             
                             <br><br>Using Figma, I collaborated with another intern on the wireframes and prototypes of the initial UI design,
                             which informed our system design decisions later on. I developed the front end using Flask, HTML/CSS, 
                             JavaScript, Vue.js, and Vuetify.<br>
                             <figure class="image">
                                 <img src="skyline1.png">
+                                Main menu on lefthand side controls test facility API. Wrench menu on righthand side toggles markers
+                                and terrain/satellite mode. 
                               </figure>  
                               <figure class="image">
                                 <img src="skyline2.png">
+                                Clicking on the Liberty/State marker results in main menu scrolling down to the appropriate 
+                                panel.
                               </figure>
                               <figure class="image">
                                 <img src="skyline3.png">
+                                Console tab displays log of user/API interactions. 
                               </figure>                         
                         </section>
                         <footer class="modal-card-foot">
-                          <b>Tags:</b> Front end, UI design, JavaScript, Vue.js, HTML/CSS, Sketch
+                          <b>Tags:</b> Front end, UI design, JavaScript, Vue.js, HTML/CSS, Figma
                         </footer>
                       </div>
                     </div>
@@ -179,7 +186,7 @@
           <div class="column">
               <div class="card">
                 <div class="card-image">
-                  <figure class="image is-4by3"> <img src="mcity.png" alt="Image"> </figure>
+                  <figure class="image is-4by3"> <img src="stock.jpg" alt="Image"> </figure>
                 </div>
                 <div class="card-content">
                   <div class="media">
@@ -199,17 +206,16 @@
                             <p class="modal-card-title">Galactic War Simulation</p>
                           </header>
                           <section class="modal-card-body">
-                              I wrote Incorporating Universal Design for Learning in the Writing Center 
-                              in November 2016. In my paper, I discuss the ableism and disrespect that 
-                              writing tutor guidebooks from the past 20 years have displayed toward students 
-                              with learning disabilities. My research focuses on discussing Universal Design 
-                              for Learning and practical ways in which undergraduate writing tutors can make 
-                              their sessions more accessible for a diverse range of students. 
-  
-                              <br><br>I presented my work at the 39th Annual East Central Writing Centers Association 
-                              Conference in March 2017.                        
+                            The program received as input a list of orders that specified whether the trader intended to buy or 
+                            sell a specific stock. As output, the program would simulate a stock market by printing when a 
+                            certain stock is bought or sold only when it is profitable to do so. I also implemented an algorithm
+                            to calculate the ideal time that a time traveler theoretically could have bought shares of an stock and 
+                            then later sold that stock to maximize profit.
+                            Completing this project gave me experience using priority queues and the STL and it helped me become more proficient with 
+                            object-oriented design.
                           </section>
                           <footer class="modal-card-foot">
+                            <b>Tags:</b> C++, Runtime efficiency, stock simulator, STL
                           </footer>
                         </div>
                       </div>
