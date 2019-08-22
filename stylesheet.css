@@ -9,3 +9,6 @@
     padding-right: 30px !important;
   }
 }
+html {
+  scroll-behavior: smooth;
+}

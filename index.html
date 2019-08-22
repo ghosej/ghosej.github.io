@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.7.2/minty/bulmaswatch.min.css" integrity="sha256-D94pbXXXcznUAqIkvrygCD++gUke0GXyLamY5FtPYlA=" crossorigin="anonymous" />
-
 <meta name="google-site-verification" content="cVTIST6ExYmdvYtY2HKbKNQhvHbsDuS2oaPN9im5hnk" />
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
@@ -36,7 +35,7 @@
                 <a class="navbar-item is-active" href="https://drive.google.com/file/d/12sTsvrzMSUujdZPII2DI1gN1Zr3BQpiL/view?usp=sharing">
                   Resume
                 </a>
-                <a class="navbar-item">
+                <a class="navbar-item" href="#examples">
                   Examples
                 </a>
               </div>
@@ -111,7 +110,7 @@
       </div>
     </section>
     <!---->
-    <section>
+    <section id="examples">
       <div class="container">
         <div class="content">
           <hr>
@@ -141,17 +140,34 @@
                           <p class="modal-card-title">Skyline</p>
                         </header>
                         <section class="modal-card-body">
-                            I wrote Incorporating Universal Design for Learning in the Writing Center 
-                            in November 2016. In my paper, I discuss the ableism and disrespect that 
-                            writing tutor guidebooks from the past 20 years have displayed toward students 
-                            with learning disabilities. My research focuses on discussing Universal Design 
-                            for Learning and practical ways in which undergraduate writing tutors can make 
-                            their sessions more accessible for a diverse range of students. 
+                            Mcity's partner companies and researchers associated with the University of Michigan
+                            can test their autonomous and connected vehicles at Mcity's test facility. Infrastructure 
+                            such as crosswalks and traffic lights can be controlled with software to simulate different 
+                            conditions. Previously, researchers would need to program the infrastructure in person, but 
+                            the web interface I built this summer enables remote control of the facility using an open 
+                            source API. 
 
-                            <br><br>I presented my work at the 39th Annual East Central Writing Centers Association 
-                            Conference in March 2017.                        
+                            <br><br>Skyline includes the following features: 
+                            <br>&bull; Displays live status of infrastructure
+                            <br>&bull; Shows infrastructure locations on a map of the test facility
+                            <br>&bull; Allows users to “favorite” infrastructure for ease of access
+                            <br>&bull; Logs all user and API interactions which can be downloaded in a CSV file format
+                            
+                            <br><br>Using Figma, I collaborated with another intern on the wireframes and prototypes of the initial UI design,
+                            which informed our system design decisions later on. I developed the front end using Flask, HTML/CSS, 
+                            JavaScript, Vue.js, and Vuetify.<br>
+                            <figure class="image">
+                                <img src="skyline1.png">
+                              </figure>  
+                              <figure class="image">
+                                <img src="skyline2.png">
+                              </figure>
+                              <figure class="image">
+                                <img src="skyline3.png">
+                              </figure>                         
                         </section>
                         <footer class="modal-card-foot">
+                          <b>Tags:</b> Front end, UI design, JavaScript, Vue.js, HTML/CSS, Sketch
                         </footer>
                       </div>
                     </div>
@@ -266,7 +282,7 @@
                               </figure> 
                           </section>
                           <footer class="modal-card-foot">
-                            <b>Tags:</b> Leadership, UI design, Hackathon, Project management, teamwork  
+                            <b>Tags:</b> Leadership, UI design, Hackathon, Project management, Teamwork  
                           </footer>
                         </div>
                       </div>
@@ -383,10 +399,10 @@
   <br><br>
   <footer class="footer" style="padding-top: 20px; padding-bottom: 20px; background-color: #6d90d6;">
       <div class="content has-text-centered">
-        <p style="color: white;">Copyright @ 2019 Jenny Ghose
+        <h6 class="title is-6" style="color: white;">Copyright @ 2019 Jenny Ghose
         <br><a style="color: white; text-decoration: underline;" href="mailto:ghosej@umich.edu">ghosej@umich.edu</a>
         <br><a style="color: white; text-decoration: underline;" href="https://drive.google.com/file/d/12sTsvrzMSUujdZPII2DI1gN1Zr3BQpiL/view?usp=sharing">Resume</a>
-        </p>
+        </h6>
       </div>
   </footer>
         
